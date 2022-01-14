@@ -215,7 +215,6 @@ jetson_nano)
 	popd	
 	;;
 rpi)
-	apt_install python-pip	
 	apt_install python3-pip
 	
 	### install I2C ###
