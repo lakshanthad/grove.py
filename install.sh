@@ -227,7 +227,6 @@ rpi)
 	echo I2C interface enabled...
 
 	## install library raspberry-gpio-python
-	(( r == 0 )) && { apt_install python-rpi.gpio;  r=$?; }
 	(( r == 0 )) && { apt_install python3-rpi.gpio; r=$?; }
 	;;
 
