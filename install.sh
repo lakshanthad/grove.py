@@ -192,7 +192,6 @@ apt -y update
 
 case "$platform" in
 coral)
-	apt_install python-pip
 	apt_install python3-pip
 	apt_install python-setuptools
 	apt_install python3-setuptools
@@ -203,7 +202,6 @@ coral)
 	;;
 jetson_nano)
 	
-	apt_install python-pip	
 	apt_install python3-pip
 	apt_install python-setuptools
 	apt_install python3-setuptools
